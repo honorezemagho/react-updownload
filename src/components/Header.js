@@ -1,5 +1,5 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -7,7 +7,7 @@ const Header = () => {
       <h1>File Upload And Download</h1>
       <nav>
         <NavLink activeClassName="active" to="/" exact={true}>
-          Home
+          Upload
         </NavLink>
         <NavLink activeClassName="active" to="/list">
           Files List
